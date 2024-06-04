@@ -1,0 +1,145 @@
+@media screen and (max-width: 768px) {
+    .navbar-nav {
+        background-color: rgb(37, 43, 66,0.5);
+    }
+    
+    .btn-primary {
+        height: 45px;
+        background-color: rgb(35, 166, 240);
+        border-color:  rgb(35, 166, 240);
+        opacity: 1;
+    }
+}
+*{
+    font-family: 'montserrat';
+
+}
+.montserrat {
+    font-family: "montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+a:hover {
+    color: silver;
+    transform: rotatey('30');
+}
+a:link {
+    color: yellow;
+}
+a:visited {
+    color: white;
+}
+a:active {
+    color: green;
+}
+
+/* ----------------------------------- Navigation Menu Style  ----------------------------------*/
+
+.btn-primary {
+    height: 45px;
+    background-color: rgb(35, 166, 240);
+    border-color:  rgb(35, 166, 240);
+}
+
+
+/* ----------------------------------- Hero Banner / First Section Styles  ---------------------------------*/
+
+#section1 {
+    padding-top: 15%;
+    padding-bottom: 10%;
+    background-image:linear-gradient(to right,
+        rgba(0, 0, 0, 1), 
+        rgba(0, 0, 0, 0)), url('./assets/hero.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;   
+}
+.container{
+    padding-left: 10%;
+}
+h1 {
+    font-family: 'montserrat';
+    font-weight: 700;
+}
+.btn-secondary {
+    border-radius: 100px;
+    border-color: white;
+    background: transparent;
+}
+
+
+
+     
+/* ---------------------------------------------- Second Section Styles   ----------------------------------------------*/
+
+#section2 {
+    background-color: rgb(37, 43, 66);
+}
+.card-img-top {
+    max-width: 60px;
+    align-self: center;
+}
+
+#card {
+    background-color: rgb(37, 43, 66);
+    max-width: 90%;
+    padding: 5%;
+    font-size: 0.9rem;
+}
+
+#card-title {
+    color: white;
+    text-align: center;
+    padding-top:3%;
+    padding-bottom: 3%;
+}
+
+
+
+       
+/* ----------------------------------------------  Third Section Styles  ----------------------------------------------*/
+
+
+.card2  {
+    margin: 5%;
+    background-color: white;
+    max-width: 100%;
+    padding: 1%;
+    text-align: center;
+    font-size: 0.9rem;
+    
+}
+.card-body2 .card-text {
+    color: black;
+}
+.card-body2 .card-title {
+    color: black;
+}
+.card-body2 {
+    padding: 8%;
+}
+
+/* ---------------------------------------------- Fourth Section Styles   ----------------------------------------------*/
+
+
+
+
+
+        
+/* ---------------------------------------------- Fifth Section Styles   ----------------------------------------------*/
+
+
+
+
+        
+
+/* ---------------------------------------------- Sixth Section Styles  -----------------------------------------------*/
+
+
+
+
+      
+/* ------------------------------------------------- Footer Style  ----------------------------------------------*/
+
